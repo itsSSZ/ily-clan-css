@@ -1,0 +1,83 @@
+@import url(https://envyxyz.github.io/4.am/4.css);
+
+
+:root {
+	--accent-color: #dfafff;
+	--health-color: var(--accent-color);
+	--ammo-color: #fff;
+	--premium-color: #fbc02d;
+	--verified-color: #40c4ff;
+	--menu-bg-color: rgba(15, 15, 15, .2);
+	--menu-bg-color-secondary: rgba(0, 0, 0, .5);
+	--ingame-bg-color: rgba(15, 15, 15, .2);
+	--text-transform: lowercase;
+}
+
+/* font(s) */
+
+@font-face {
+	font-family: gamefont;
+	src: url(https://fonts.gstatic.com/s/inter/v2/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2);
+}
+
+@font-face {
+	font-family: hpammo;
+	src: url(https://reizu.moe/fonts/Renogare.ttf);
+}
+
+
+/*Other fonts*/
+
+
+/*Sunflower: https://fonts.gstatic.com/s/inter/v2/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2 */
+
+
+/*Lexend: https://fonts.gstatic.com/s/inter/v2/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2 */
+
+
+/*vag rounded: https://fonts.gstatic.com/s/inter/v2/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2 */
+
+/* logo */
+
+#mainLogo {
+	content: url(https://o.remove.bg/downloads/64b5a147-e0a9-4a8d-aa4d-0810c9737913/26-267004_png-ily-transparent-png-removebg-preview.png);
+    height: 550px
+}
+
+/*Section 0: base*/
+
+#mainLogo {
+   	z-index: -999999!important;
+}
+
+#gameNameHolder {
+	position: fixed;
+	top: 1%;
+	z-index: -99!Important
+}
+
+#loadingBg {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(https://c.tenor.com/dmuWBoInIGUAAAAM/1nonly-pfp.gif);
+}
+
+
+/*images and stuff*/
+
+img[src="./img/vic.png"] {
+	content: url(https://cdn.discordapp.com/attachments/521130006261268480/819969923837198406/vic.png);
+}
+
+img[src="./img/dra.png"] {
+	content: url(https://cdn.discordapp.com/attachments/521130006261268480/819971621912576080/dra.png);
+}
+
+img[src="./img/def.png"] {
+	content: url(https://cdn.discordapp.com/attachments/521130006261268480/819968276398342164/def.png);
+}
+
+/* Make edits below */
+#instructionHolder {
+    backdrop-filter: blur(4px);
+} 
